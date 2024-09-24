@@ -10,11 +10,11 @@
 // TASK 1: Define a regular function to divide two numbers.
 // 1. Define a function named `divide` that takes two inputs: num1 and num2.
 function result(num1, num2){
-   return num1/num2
+   return num1/num2 ;
 }
 // 2. Inside the function, return the result of dividing num1 by num2.
 // 3. Call the `divide` function with the inputs 4 and 5, and log the result.
- result(4,5)
+ let random1 =result(4,5)
 
 // TASK 2: Define a regular function to greet a user.
 // 1. Define a function named `greetUser` that takes one input: name.
