@@ -18,10 +18,13 @@ function result(num1, num2){
 
 // TASK 2: Define a regular function to greet a user.
 // 1. Define a function named `greetUser` that takes one input: name.
+function greetUser(name){
+   return ("hello " + name);
+}
 // 2. Inside the function, return a greeting string like "Hello, [name]!"
 // 3. Call the `greetUser` function with your name, and log the result.
-
-
+let greeting= greetUser("denisse ")
+console.log(greeting)
 
 // TASK 3: Define an arrow function to subtract two numbers.
 // 1. Define an arrow function named `subtract` that takes two inputs: num1 and num2.
